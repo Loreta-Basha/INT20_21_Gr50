@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device, initial-scale=1.0">
+        <title>Bio pharmacy-MALVA</title>
+    </head>
+    <style>
+        *{
+                margin: 0;
+                padding: 0;
+                font-family: 'Anton', sans-serif;
+                font-family: 'Source Sans Pro', sans-serif;
+             }
+             nav{
+                display: flex;
+                padding: 2% 6%;
+                justify-content: space-between;
+                align-items: center;
+               }
+               nav img{
+                    width: 150px ;
+                   }
+                   .nav-links{
+                flex: 1;
+                text-align: right;
+
+                      }
+          .nav-links ul li{
+              list-style: none;
+              display: inline-block;
+              padding: 8px 12px;
+              position: relative;
+              }
+          .nav-links ul li a{
+              color: #fff;
+              text-decoration: none;
+              font-size:  23px;
+              }
+              .nav-links  ul li::after{
+              content: '';
+              width: 0%;
+              height: 2px;
+              background: #1ead42;
+              display: block;
+              margin: auto;
+              transition: 0.5s;
+              }
+         .nav-links ul li:hover::after{
+              width: 100%;
+              }
+              .header{
+                    min-height: 100vh;
+                    width: 100%;
+                    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(foto6.png);
+                    background-position: center;
+                    background-size: cover;
+                    position: relative;
+                   }
+            img{
+                width:120px ;
+                height: 120px;
+               }
+    </style>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="home.html"><img src="logo.png" alt=""></a>
+                <div class="nav-links">
+                    <link rel="preconnect" href="https://fonts.googleapis.com">
+                    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+                    <ul>
+                        <li><a href="home.html">BALLINA</a></li>
+                        <li><a href="about.html">NJOFTIME</a></li>
+                        <li><a href="bimet.html">BIMET</a></li>
+                        <li><a href="kerpudhat.html">KERPUDHAT</a></li>
+                        <li><a href="">POROSIA</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+        </section>
+    </body>
+</html>
